@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+      padding-top: 20px;
+    }
+
+    .column {
+      flex-basis: 33%;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    img {
+      width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Indiana Jones</h1>
+
+
+  <div class="container">
+    <div class="row">
+
+      <div class="column">
+        <img src="images/raiders.jpg">
+          <h3>Raiders of the Lost Ark</h3>
+            <p>Lucas concieved the Raiders of the Lost Ark in the early 70s.
+            Seeking to modernize the serial film of the 20th-century.</p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg">
+          <h3>Temple of the Doom</h3>
+            <p>The film was rekeased to financial success but initial reviews were mixed,
+            criticizing the darker elements and violence.</p>
+      </div>
+      <div class="column">
+        <img src="images/crusade.png">
+          <h3>The Last Crusade</h3>
+            <p>After the mixed reactionsto Indiana Jones and the Temple of Doom,
+            Spielberg chose to tone down the dark tone and graphic violence in the next installment.</p>
+      </div>
+
+    </div>
+  </div>
+
+
+
+</body>
+</html>
