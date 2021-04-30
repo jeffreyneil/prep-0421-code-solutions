@@ -13,9 +13,11 @@ console.log(fullName);
 
 var currentJob = 'The person\'s current job is:' + ' ' + person.job;
 console.log(currentJob);
+// console.log('The person\'s current job is:' ,person.job);
 
 var personsPreviousJob = 'The person\'s previous job is:' + ' ' + person.previousJob;
 console.log(personsPreviousJob);
+// console.log('The person\'s previous job is:' , person.previousJob);
 
 console.log('The complete person object:', person);
 
@@ -30,5 +32,6 @@ console.log('Car information', myCar);
 
 var carOwner = 'My name is' + ' ' + myCar['owner'] + ' ' + 'and I drive' + ' ' + myCar['year'] + ' ' + myCar['make'] + ' ' + myCar['model'];
 console.log(carOwner);
+// console.log('My name is' + ' ' + myCar['owner'] + ' ' + 'and I drive' + ' ' + myCar['year'] + ' ' + myCar['make'] + ' ' + myCar['model']);
 
 console.log('My full car info:', myCar);
