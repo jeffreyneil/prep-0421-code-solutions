@@ -12,9 +12,16 @@
 // var inMinutes = convertHoursToMinutes(2);
 // console.log(inMinutes);
 
-function getGreeting(name) {
-  return 'Hello' + ' ' + name + '!';
+// function getGreeting(name) {
+//   return 'Hello' + ' ' + name + '!';
+// }
+
+// var greeting = getGreeting('World');
+// console.log(greeting);
+
+function addAndMultiplyBy5(num1, num2) {
+  return ((num1 + num2) * 5);
 }
 
-var greeting = getGreeting('World');
-console.log(greeting);
+var resultOfAddAndMultiplyBy5 = addAndMultiplyBy5(10, 5);
+console.log(resultOfAddAndMultiplyBy5);
